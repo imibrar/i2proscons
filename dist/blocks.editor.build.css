@@ -1,0 +1,57 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.i2-pros-cons-wrapper {
+  display: table;
+  width: 100%; }
+  .i2-pros-cons-wrapper .i2-pros, .i2-pros-cons-wrapper .i2-cons {
+    display: table-cell;
+    width: 50%;
+    margin-bottom: 15px;
+    position: relative; }
+    .i2-pros-cons-wrapper .i2-pros .i2-pros-title, .i2-pros-cons-wrapper .i2-pros .i2-cons-title, .i2-pros-cons-wrapper .i2-cons .i2-pros-title, .i2-pros-cons-wrapper .i2-cons .i2-cons-title {
+      color: #FFFFFF;
+      border-radius: 0px;
+      padding: 5px 15px 5px;
+      margin: 0px;
+      font-size: 22px; }
+    .i2-pros-cons-wrapper .i2-pros .i2-pros-title, .i2-pros-cons-wrapper .i2-cons .i2-pros-title {
+      background-color: #00bf08; }
+    .i2-pros-cons-wrapper .i2-pros .i2-cons-title, .i2-pros-cons-wrapper .i2-cons .i2-cons-title {
+      background-color: #bf000a; }
+    .i2-pros-cons-wrapper .i2-pros .section, .i2-pros-cons-wrapper .i2-cons .section {
+      padding-bottom: 15px;
+      padding-top: 5px; }
+      .i2-pros-cons-wrapper .i2-pros .section ul, .i2-pros-cons-wrapper .i2-cons .section ul {
+        margin: 0;
+        padding: 0;
+        padding-right: 15px;
+        list-style: outside none none !important; }
+        .i2-pros-cons-wrapper .i2-pros .section ul li, .i2-pros-cons-wrapper .i2-cons .section ul li {
+          padding-left: 30px;
+          list-style: outside none none !important;
+          position: relative; }
+          .i2-pros-cons-wrapper .i2-pros .section ul li i, .i2-pros-cons-wrapper .i2-cons .section ul li i {
+            position: absolute;
+            left: 5px;
+            top: 8px;
+            font-size: 80%; }
+        .i2-pros-cons-wrapper .i2-pros .section ul.no-icon li, .i2-pros-cons-wrapper .i2-cons .section ul.no-icon li {
+          padding-left: 15px; }
+  .i2-pros-cons-wrapper .i2-pros .section li i {
+    color: #00bf08; }
+  .i2-pros-cons-wrapper .i2-cons .section li i {
+    color: #bf000a; }
+
+@media only screen and (min-width: 993px) {
+  .i2-pros-cons-wrapper .i2-pros {
+    border-right: none !important; } }
+
+@media only screen and (max-width: 992px) {
+  .i2-pros-cons-wrapper .i2-pros, .i2-pros-cons-wrapper .i2-cons {
+    display: block;
+    width: 100%;
+    float: initial; } }
